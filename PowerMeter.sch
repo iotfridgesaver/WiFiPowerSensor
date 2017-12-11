@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:PowerMeter-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -73,7 +74,7 @@ Wire Wire Line
 Wire Wire Line
 	7400 4200 8550 4200
 $Comp
-L ESP-01v090 U1
+L ESP-01v090-RESCUE-PowerMeter U1
 U 1 1 5A204CCD
 P 4850 3650
 F 0 "U1" H 4850 3550 50  0000 C CNN
@@ -285,7 +286,7 @@ F 3 "" H 7900 4000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ESP-01v090 U?
+L ESP-01v090-RESCUE-PowerMeter U?
 U 1 1 5A207F02
 P 4850 3650
 F 0 "U?" H 4850 3550 50  0000 C CNN
@@ -381,17 +382,6 @@ F 1 "GND" H 3300 2650 50  0000 C CNN
 F 2 "" H 3300 2800 50  0000 C CNN
 F 3 "" H 3300 2800 50  0000 C CNN
 	1    3300 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L SW_PUSH SW?
-U 1 1 5A207F0B
-P 6200 2600
-F 0 "SW?" H 6350 2710 50  0000 C CNN
-F 1 "FLASH" H 6200 2520 50  0000 C CNN
-F 2 "" H 6200 2600 50  0000 C CNN
-F 3 "" H 6200 2600 50  0000 C CNN
-	1    6200 2600
 	1    0    0    -1  
 $EndComp
 $Comp
